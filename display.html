@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties</title>
+    <style>
+        div {
+            /* inline */
+            /* contents */
+            display:flex;
+            /* flex-direction: row-reverse; */
+            flex-wrap: wrap;
+            /* align-items: center; */
+        }
+        p:first-child{
+            height: 3rem;
+            /* width: 100%; */
+            /* flex-shrink: 1; */
+            background-color:yellow;
+        }
+        p:last-child{
+            height: 3rem;
+            /* flex-grow: 2; */
+            /* width: 100%; */
+            background-color: red;
+
+        }
+        p:nth-child(2){
+            height: 3rem;
+            /* flex-grow: 2; */
+            /* width: 100%; */
+            background-color: purple;
+        }
+          p:nth-child(3){
+            height: 3rem;
+            /* flex-grow: 1; */
+            /* width: 100%; */
+            background-color: blue;
+        }
+        p{
+            flex-basis: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>hello world</p>
+        <p>whatsup</p>
+        <P>hehehe</P>
+        <p>bvbuevh us</p>
+
+    </div>
+
+</body>
+</html>
