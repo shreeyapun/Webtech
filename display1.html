@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        /* display: flex; */
+        color: purple;
+        flex-wrap: wrap;
+    }
+    p:first-child{
+        height: 3rem;
+        flex-grow: 1;
+        background-color: yellow;
+    }
+    p:nth-child(2){
+        height: 3rem;
+        background-color: red;
+        flex-shrink: 1;
+
+    }
+    p:nth-child(3){
+        height: 3rem;
+        background-color: brown;
+        
+    }
+</style>
+<body>
+    <section>
+        <div>
+            <p>my name is shreeya </p>
+            <p> this is my project</p>
+            <p>this is my html</p>
+        </div>
+    </section>
+</body>
+</html>
